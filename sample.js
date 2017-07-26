@@ -4,7 +4,7 @@ var resourceTypeJQ = resourceType.getElement(); //jQuery object
 
 //Changes UserA
 //Change 2 UserA
-
+//Same line conflict
 var bookFor = page.getComponent("Book For"); //Book For component
 var bookForJQ = bookFor.getElement(); //jQuery object
 
