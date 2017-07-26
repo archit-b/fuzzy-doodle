@@ -188,7 +188,7 @@ endTimeJQ.blur(function(){
     console.log("Book disabled");
   }
 });
-
+/*
 summaryJQ.blur(function(){
   if(meetingDate.get() != '' && startTime.get() != '' && endTime.get() != ''
     && meetingDate.get().isValid() && summary.get() != '' &&
@@ -200,4 +200,4 @@ summaryJQ.blur(function(){
     bookButton.disable();
     console.log("Book disabled");
   }
-})
+})*/
