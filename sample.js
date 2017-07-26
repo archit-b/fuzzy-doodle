@@ -2,6 +2,8 @@
 var resourceType = page.getComponent("Resource Type"); //Resource Type component
 var resourceTypeJQ = resourceType.getElement(); //jQuery object
 
+//Changes UserA
+
 var bookFor = page.getComponent("Book For"); //Book For component
 var bookForJQ = bookFor.getElement(); //jQuery object
 
