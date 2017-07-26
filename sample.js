@@ -75,12 +75,12 @@ currentDate2.setMinutes(0);
 currentDate2.setSeconds(0);
 endTime.set(moment(currentDate2));
 
-// if(navigator.userAgent.match(/Android/i)){
-//      meetingDateJQ.datepicker("option","minDate",(new Date()).valueOf());
-//   }
-//  else {
-//     meetingDateJQ.datepicker("option","minDate",new Date());
-//   }
+if(navigator.userAgent.match(/Android/i)){
+     meetingDateJQ.datepicker("option","minDate",(new Date()).valueOf());
+  }
+ else {
+    meetingDateJQ.datepicker("option","minDate",new Date());
+  }
 
 //EVENTS
 
